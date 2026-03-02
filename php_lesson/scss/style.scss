@@ -12,6 +12,10 @@ body {
   @include lineHeight(16, 26);
 }
 
+form{
+  margin: min(getVw(10, 1200), 10px) auto;
+}
+
 ul {
   list-style: none;
   padding: 0;

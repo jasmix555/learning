@@ -8,6 +8,10 @@ body {
   line-height: 1.625;
 }
 
+form {
+  margin: min(0.8333333333vw, 10px) auto;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -51,7 +55,7 @@ li {
   height: min(12.5vw, 150px);
 }
 li:hover {
-  transform: translateY(-4px);
+  transform: translateY(-1px);
 }
 li strong {
   display: block;
@@ -73,4 +77,4 @@ li a {
 }
 li a:hover {
   background: #005dc0;
-}
+}/*# sourceMappingURL=style.css.map */

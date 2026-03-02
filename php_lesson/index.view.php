@@ -11,6 +11,23 @@
 <body>
 
   <div class="container">
+    <form method="GET">
+      <select name="author" id="">
+        <option value="">All Authors</option>
+
+        <?php foreach ($authors as $authorOption) : ?>
+          <option
+            value="<?= $authorOption ?>"
+            <?= ($selectedAuthor === $authorOption) ? 'selected' : '' ?>>
+            <?= $authorOption ?>
+          </option>
+
+        <?php endforeach; ?>
+      </select>
+
+      <button type="submit">Filter</button>
+    </form>
+
     <ul>
       <?php foreach ($filteredBooks as $book) : ?>
         <li>
