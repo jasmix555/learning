@@ -61,19 +61,30 @@
         ]
     ];
 
-    function filterByAuthor()
-    {
-        return "filter";
-    }
+    // function filter($items, $fn)
+    // {
+    //     $filteredItems = [];
+
+    //     foreach ($items as $item) {
+    //         if ($fn($item)) {
+    //             $filteredItems[] = $item;
+    //         }
+    //     }
+
+    //     return $filteredItems;
+    // };
+
+    $filteredBooks = array_filter($books, function ($book) {
+        return $book["releaseYear"] < 1950 || $book["author"] === "J.K. Rowling";
+    });
     ?>
 
 
     <div class="container">
 
-        <?= filterByAuthor() ?>
 
         <ul>
-            <?php foreach ($books as $book) : ?>
+            <?php foreach ($filteredBooks as $book) : ?>
                 <li>
                     <strong><?= $book["name"]; ?></strong>
                     by <?= $book["author"] ?> (<?= $book["releaseYear"] ?>)
