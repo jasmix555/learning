@@ -32,17 +32,18 @@
     ?>
 
 
+<div class="container">
     <ul>
         <?php foreach ($books as $book) : ?>
             <li>
-                <?= $book["name"]; ?>
-                <br>
+                <strong><?= $book["name"]; ?></strong>
                 by <?= $book["author"] ?>
                 <br>
                 <a href="<?= $book['purchaseUrl'] ?>">Purchase Here</a>
             </li>
         <?php endforeach; ?>
     </ul>
+</div>
 </body>
 
 </html>
