@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* import your mixins file if separated */
-@use "./mixin" as *;
+@use "./mixin"as *;
 
 body {
   margin: 0;
@@ -21,15 +21,15 @@ ul {
 /* layout container */
 .container {
   max-width: 900px;
-  margin: 60px auto;
-  padding: 20px;
+  margin: min(getVw(20, 1200), 20px) auto;
+  padding: min(getVw(20, 1200), 20px);
 }
 
 /* book list */
 ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: min(getVw(20, 1200), 20px);
 
   @include mq(medium) {
     grid-template-columns: repeat(2, 1fr);
@@ -43,10 +43,14 @@ ul {
 /* book card */
 li {
   background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border-radius: min(getVw(8, 1200), 8px);
+  padding: min(getVw(20, 1200), 20px);
+  box-shadow: 0 min(getVw(4, 1200), 4px) min(getVw(10, 1200), 10px) rgba(0, 0, 0, 0.05);
   transition: transform .2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: min(getVw(150, 1200), 150px);
 
   &:hover {
     transform: translateY(-4px);
@@ -61,12 +65,13 @@ li {
 
   a {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: min(getVw(10, 1200), 10px);
     text-decoration: none;
     color: white;
     background: #0073e6;
-    padding: 8px 14px;
-    border-radius: 4px;
+    padding: min(getVw(8, 1200), 8px) min(getVw(14, 1200), 14px);
+    border-radius: min(getVw(4, 1200), 4px);
+    text-align: center;
 
     @include fontSizeRem(14);
 

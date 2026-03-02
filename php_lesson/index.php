@@ -12,38 +12,77 @@
     <?php
     $books = [
         [
-            'name' => "book 1",
-            "author" => "author 1",
+            "name" => "Diary of a Wimpy Kid",
+            "author" => "Jeff Kinney",
+            "releaseYear" => 2007,
             "purchaseUrl" => "https://example.com"
         ],
-
         [
-            'name' => "book 2",
-            "author" => "author 2",
+            "name" => "Rodrick Rules",
+            "author" => "Jeff Kinney",
+            "releaseYear" => 2008,
             "purchaseUrl" => "https://example.com"
         ],
-
         [
-            'name' => "book 3",
-            "author" => "author 3",
+            "name" => "The Last Straw",
+            "author" => "Jeff Kinney",
+            "releaseYear" => 2009,
+            "purchaseUrl" => "https://example.com"
+        ],
+        [
+            "name" => "Harry Potter and the Sorcerer's Stone",
+            "author" => "J.K. Rowling",
+            "releaseYear" => 1997,
+            "purchaseUrl" => "https://example.com"
+        ],
+        [
+            "name" => "Harry Potter and the Chamber of Secrets",
+            "author" => "J.K. Rowling",
+            "releaseYear" => 1998,
+            "purchaseUrl" => "https://example.com"
+        ],
+        [
+            "name" => "The Hobbit",
+            "author" => "J.R.R. Tolkien",
+            "releaseYear" => 1937,
+            "purchaseUrl" => "https://example.com"
+        ],
+        [
+            "name" => "The Lord of the Rings",
+            "author" => "J.R.R. Tolkien",
+            "releaseYear" => 1954,
+            "purchaseUrl" => "https://example.com"
+        ],
+        [
+            "name" => "To Kill a Mockingbird",
+            "author" => "Harper Lee",
+            "releaseYear" => 1960,
             "purchaseUrl" => "https://example.com"
         ]
     ];
+
+    function filterByAuthor()
+    {
+        return "filter";
+    }
     ?>
 
 
-<div class="container">
-    <ul>
-        <?php foreach ($books as $book) : ?>
-            <li>
-                <strong><?= $book["name"]; ?></strong>
-                by <?= $book["author"] ?>
-                <br>
-                <a href="<?= $book['purchaseUrl'] ?>">Purchase Here</a>
-            </li>
-        <?php endforeach; ?>
-    </ul>
-</div>
+    <div class="container">
+
+        <?= filterByAuthor() ?>
+
+        <ul>
+            <?php foreach ($books as $book) : ?>
+                <li>
+                    <strong><?= $book["name"]; ?></strong>
+                    by <?= $book["author"] ?> (<?= $book["releaseYear"] ?>)
+                    <br>
+                    <a href="<?= $book['purchaseUrl'] ?>">Purchase Here</a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
 </body>
 
 </html>

@@ -17,15 +17,15 @@ ul {
 /* layout container */
 .container {
   max-width: 900px;
-  margin: 60px auto;
-  padding: 20px;
+  margin: min(1.6666666667vw, 20px) auto;
+  padding: min(1.6666666667vw, 20px);
 }
 
 /* book list */
 ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: min(1.6666666667vw, 20px);
 }
 @media screen and (max-width: 780px) {
   ul {
@@ -41,10 +41,14 @@ ul {
 /* book card */
 li {
   background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: min(0.6666666667vw, 8px);
+  padding: min(1.6666666667vw, 20px);
+  box-shadow: 0 min(0.3333333333vw, 4px) min(0.8333333333vw, 10px) rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: min(12.5vw, 150px);
 }
 li:hover {
   transform: translateY(-4px);
@@ -57,12 +61,13 @@ li strong {
 }
 li a {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: min(0.8333333333vw, 10px);
   text-decoration: none;
   color: white;
   background: #0073e6;
-  padding: 8px 14px;
-  border-radius: 4px;
+  padding: min(0.6666666667vw, 8px) min(1.1666666667vw, 14px);
+  border-radius: min(0.3333333333vw, 4px);
+  text-align: center;
   font-size: 14px;
   font-size: 0.875rem;
 }
