@@ -11,7 +11,13 @@
 <body>
 
   <div class="container">
+    <h1><?= $business["name"] ?></h1>
 
+    <ul>
+      <?php foreach ($business["categories"] as $category) : ?>
+        <li><?= $category ?></li>
+      <?php endforeach ?>
+    </ul>
   </div>
 </body>
 
