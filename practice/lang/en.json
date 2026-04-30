@@ -1,0 +1,97 @@
+{
+  "site_name": "Blendy",
+  "site_tagline": "Everyday Coffee, Comfortably",
+  "page_title": "Blendy | Official Brand Page",
+
+  "meta_description": "Discover the Blendy coffee experience: aroma, comfort, and quality for everyday moments.",
+
+  "nav_concept": "Concept",
+  "nav_products": "Products",
+  "nav_story": "Story",
+  "nav_sustainability": "Sustainability",
+  "nav_faq": "FAQ",
+
+  "hero_title": "Make Every Coffee Moment Feel Easy.",
+  "hero_desc": "Blendy is designed for people who want smooth coffee, reliable taste, and comfort in every cup. From busy mornings to quiet nights, it fits naturally into everyday life.",
+  "hero_cta_primary": "Explore Products",
+  "hero_cta_secondary": "Brand Story",
+  "hero_note_1": "Aroma-focused blends for daily enjoyment.",
+  "hero_note_2": "Balanced taste that pairs with any lifestyle.",
+  "hero_img_alt": "Coffee cup on a table",
+
+  "concept_title": "The Blendy Concept",
+  "concept_lead": "Simple, approachable, and consistently satisfying. Blendy is built around comfort and trust—without compromising flavor.",
+
+  "concept_card_1_title": "Comfortable Aroma",
+  "concept_card_1_desc": "A scent that feels familiar and calming, designed to blend into your daily routine without overwhelming your senses.",
+
+  "concept_card_2_title": "Balanced Taste",
+  "concept_card_2_desc": "Not too strong, not too light. A flavor profile that feels smooth, clean, and easy to drink.",
+
+  "concept_card_3_title": "Reliable Quality",
+  "concept_card_3_desc": "A product you can count on. Every cup is made to deliver stable taste, day after day.",
+
+  "products_title": "Products",
+  "products_lead": "Blendy offers multiple styles to match your lifestyle—from instant convenience to café-like richness.",
+
+  "product_1_alt": "Instant coffee powder",
+  "product_1_title": "Blendy Instant Coffee",
+  "product_1_desc": "A classic option for people who want coffee fast, without losing aroma and richness.",
+  "product_1_point_1": "Quick preparation",
+  "product_1_point_2": "Smooth and mild finish",
+  "product_1_point_3": "Easy to enjoy at home or office",
+
+  "product_2_alt": "Coffee and breakfast",
+  "product_2_title": "Blendy Stick Series",
+  "product_2_desc": "Designed for convenience and variety. Perfect for busy mornings and easy breaks.",
+  "product_2_point_1": "Portable stick format",
+  "product_2_point_2": "Wide flavor selection",
+  "product_2_point_3": "Consistent taste every time",
+
+  "product_3_alt": "Coffee beans and cup",
+  "product_3_title": "Blendy Premium Blend",
+  "product_3_desc": "For those who want deeper aroma and a more café-like experience at home.",
+  "product_3_point_1": "Richer roasted notes",
+  "product_3_point_2": "Satisfying aftertaste",
+  "product_3_point_3": "Pairs well with desserts and meals",
+
+  "story_title": "A Brand Made for Everyday Life",
+  "story_p1": "Blendy was created with a clear purpose: to make coffee a natural part of daily life, not a complicated ritual.",
+  "story_p2": "The brand focuses on balance—between aroma and smoothness, between convenience and satisfaction. It is coffee designed for the rhythm of modern living.",
+  "story_p3": "Whether you drink coffee to wake up, relax, or reset your mind, Blendy is meant to feel like a reliable companion.",
+  "story_img_alt": "Coffee brewing scene",
+
+  "sus_title": "Sustainability & Responsibility",
+  "sus_lead": "Better coffee experiences should also mean better responsibility. We aim to improve quality while respecting the world around us.",
+
+  "sus_card_1_title": "Quality Control",
+  "sus_card_1_desc": "We focus on stable sourcing and careful blending to ensure consistent flavor while reducing unnecessary waste.",
+
+  "sus_card_2_title": "Packaging Improvement",
+  "sus_card_2_desc": "We continuously explore packaging designs that reduce environmental impact while maintaining product freshness.",
+
+  "sus_quote": "A good cup of coffee should feel easy. A better cup should also feel responsible.",
+  "sus_quote_author": "Blendy Brand Philosophy",
+
+  "faq_title": "FAQ",
+  "faq_lead": "Answers to common questions about Blendy products and enjoyment.",
+
+  "faq_q1": "What makes Blendy different from other instant coffee brands?",
+  "faq_a1": "Blendy focuses on balance—smooth aroma, clean taste, and a consistent experience that fits daily routines.",
+
+  "faq_q2": "Is Blendy designed for strong coffee lovers?",
+  "faq_a2": "Blendy is generally designed to be smooth and approachable, but premium lines can provide a deeper and richer taste.",
+
+  "faq_q3": "How should I store Blendy products?",
+  "faq_a3": "Store in a cool, dry place away from direct sunlight. After opening, seal properly to maintain aroma.",
+
+  "faq_q4": "Can Blendy be enjoyed with milk?",
+  "faq_a4": "Yes. Many products are designed to pair well with milk, and stick series options often include milk-based flavors.",
+
+  "footer_desc": "Blendy is coffee designed for everyday comfort and enjoyment.",
+  "footer_link_concept": "Concept",
+  "footer_link_products": "Products",
+  "footer_link_story": "Story",
+  "footer_link_faq": "FAQ",
+  "footer_copy": "© Blendy. All rights reserved."
+}

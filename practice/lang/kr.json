@@ -1,0 +1,97 @@
+{
+  "site_name": "Blendy",
+  "site_tagline": "매일을 편안하게 만드는 커피",
+  "page_title": "Blendy | 공식 브랜드 페이지",
+
+  "meta_description": "Blendy 커피 경험을 소개합니다. 향, 편안함, 그리고 일상 속의 품질.",
+
+  "nav_concept": "컨셉",
+  "nav_products": "제품",
+  "nav_story": "브랜드 스토리",
+  "nav_sustainability": "지속가능성",
+  "nav_faq": "FAQ",
+
+  "hero_title": "매일의 커피 시간을 더 쉽게.",
+  "hero_desc": "Blendy는 부드러운 맛과 안정적인 품질을 원하는 사람들을 위해 만들어졌습니다. 바쁜 아침부터 조용한 밤까지 자연스럽게 일상에 스며듭니다.",
+  "hero_cta_primary": "제품 보기",
+  "hero_cta_secondary": "브랜드 스토리",
+  "hero_note_1": "일상에 어울리는 향 중심 블렌드.",
+  "hero_note_2": "어떤 라이프스타일에도 맞는 밸런스.",
+  "hero_img_alt": "테이블 위 커피 컵",
+
+  "concept_title": "Blendy 컨셉",
+  "concept_lead": "단순하고 친근하며 항상 만족스러운 커피. Blendy는 편안함과 신뢰를 중심으로 만들어졌습니다.",
+
+  "concept_card_1_title": "편안한 향",
+  "concept_card_1_desc": "익숙하고 안정감을 주는 향으로, 과하지 않게 일상에 자연스럽게 어울립니다.",
+
+  "concept_card_2_title": "균형 잡힌 맛",
+  "concept_card_2_desc": "너무 진하지도 연하지도 않은 부드러운 맛. 깔끔하고 쉽게 마실 수 있습니다.",
+
+  "concept_card_3_title": "믿을 수 있는 품질",
+  "concept_card_3_desc": "언제나 안정적인 맛을 제공하는 제품. 매일 마셔도 만족스러운 한 잔을 목표로 합니다.",
+
+  "products_title": "제품 소개",
+  "products_lead": "간편한 인스턴트부터 카페 같은 풍미까지, 라이프스타일에 맞는 다양한 선택지를 제공합니다.",
+
+  "product_1_alt": "인스턴트 커피 가루",
+  "product_1_title": "Blendy 인스턴트 커피",
+  "product_1_desc": "빠르게 커피를 즐기면서도 향과 깊이를 놓치고 싶지 않은 분들에게 추천합니다.",
+  "product_1_point_1": "빠른 준비",
+  "product_1_point_2": "부드럽고 마일드한 마무리",
+  "product_1_point_3": "집과 사무실 어디서나 간편하게",
+
+  "product_2_alt": "커피와 아침식사",
+  "product_2_title": "Blendy 스틱 시리즈",
+  "product_2_desc": "휴대가 간편하고 다양한 맛을 즐길 수 있어 바쁜 아침과 쉬는 시간에 적합합니다.",
+  "product_2_point_1": "휴대하기 좋은 스틱 형태",
+  "product_2_point_2": "다양한 맛 선택",
+  "product_2_point_3": "항상 일정한 맛",
+
+  "product_3_alt": "커피 원두와 컵",
+  "product_3_title": "Blendy 프리미엄 블렌드",
+  "product_3_desc": "더 깊은 향과 카페 같은 경험을 집에서 즐기고 싶은 분들을 위한 선택입니다.",
+  "product_3_point_1": "더 진한 로스팅 노트",
+  "product_3_point_2": "만족스러운 여운",
+  "product_3_point_3": "디저트와 식사 모두와 잘 어울림",
+
+  "story_title": "일상을 위한 브랜드",
+  "story_p1": "Blendy는 커피를 복잡한 의식이 아닌, 자연스러운 일상의 일부로 만들기 위해 탄생했습니다.",
+  "story_p2": "향과 부드러움, 편리함과 만족감 사이의 균형을 중요하게 생각하며 현대인의 리듬에 맞는 커피를 추구합니다.",
+  "story_p3": "잠을 깨우는 한 잔, 휴식의 한 잔, 마음을 정리하는 한 잔. Blendy는 언제나 곁에 있는 커피가 되고자 합니다.",
+  "story_img_alt": "커피를 내리는 장면",
+
+  "sus_title": "지속가능성과 책임",
+  "sus_lead": "더 좋은 커피 경험은 더 나은 책임과 함께해야 합니다. 우리는 품질을 높이는 동시에 환경을 존중합니다.",
+
+  "sus_card_1_title": "품질 관리",
+  "sus_card_1_desc": "안정적인 원료 조달과 섬세한 블렌딩으로 맛의 일관성을 유지하며 불필요한 낭비를 줄입니다.",
+
+  "sus_card_2_title": "패키징 개선",
+  "sus_card_2_desc": "환경 영향을 줄이면서도 신선도를 유지할 수 있는 포장 방식을 지속적으로 검토합니다.",
+
+  "sus_quote": "좋은 커피는 편해야 합니다. 더 좋은 커피는 책임감도 가져야 합니다.",
+  "sus_quote_author": "Blendy 브랜드 철학",
+
+  "faq_title": "FAQ",
+  "faq_lead": "Blendy 제품과 즐기는 방법에 대한 자주 묻는 질문입니다.",
+
+  "faq_q1": "Blendy가 다른 인스턴트 커피와 다른 점은 무엇인가요?",
+  "faq_a1": "Blendy는 부드러운 향과 깔끔한 맛, 그리고 일상에 맞는 안정적인 경험을 강조합니다.",
+
+  "faq_q2": "진한 커피를 좋아하는 사람에게도 مناسب한가요?",
+  "faq_a2": "Blendy는 기본적으로 부드럽고 편안한 맛을 목표로 하지만, 프리미엄 라인에서는 더 깊고 진한 풍미도 즐길 수 있습니다.",
+
+  "faq_q3": "보관은 어떻게 해야 하나요?",
+  "faq_a3": "직사광선을 피하고 서늘하고 건조한 곳에 보관하세요. 개봉 후에는 밀봉하여 향을 유지하는 것이 좋습니다.",
+
+  "faq_q4": "우유와 함께 마셔도 되나요?",
+  "faq_a4": "네. 우유와 잘 어울리며, 스틱 시리즈에는 우유 기반 맛도 다양하게 있습니다.",
+
+  "footer_desc": "Blendy는 매일을 위한 편안한 커피 경험을 제공합니다.",
+  "footer_link_concept": "컨셉",
+  "footer_link_products": "제품",
+  "footer_link_story": "스토리",
+  "footer_link_faq": "FAQ",
+  "footer_copy": "© Blendy. All rights reserved."
+}

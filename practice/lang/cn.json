@@ -1,0 +1,97 @@
+{
+  "site_name": "Blendy",
+  "site_tagline": "轻松享受每日咖啡",
+  "page_title": "Blendy | 官方品牌页面",
+
+  "meta_description": "探索 Blendy 咖啡体验：香气、舒适与品质，陪伴每一天。",
+
+  "nav_concept": "概念",
+  "nav_products": "产品",
+  "nav_story": "品牌故事",
+  "nav_sustainability": "可持续发展",
+  "nav_faq": "常见问题",
+
+  "hero_title": "让每一杯咖啡都更轻松。",
+  "hero_desc": "Blendy 为追求顺滑口感与稳定品质的人而设计。无论忙碌早晨还是安静夜晚，都能自然融入日常生活。",
+  "hero_cta_primary": "查看产品",
+  "hero_cta_secondary": "品牌故事",
+  "hero_note_1": "专注香气的日常混合。",
+  "hero_note_2": "平衡口感，适合各种生活方式。",
+  "hero_img_alt": "桌上的咖啡杯",
+
+  "concept_title": "Blendy 的理念",
+  "concept_lead": "简单、亲切且始终令人满意。Blendy 以舒适与信赖为核心，同时不妥协风味。",
+
+  "concept_card_1_title": "舒适香气",
+  "concept_card_1_desc": "熟悉且令人安心的香气，融入日常节奏，不会过于刺激。",
+
+  "concept_card_2_title": "平衡口感",
+  "concept_card_2_desc": "不太浓也不太淡，顺滑清爽，轻松好入口。",
+
+  "concept_card_3_title": "稳定品质",
+  "concept_card_3_desc": "值得信赖的产品，每一杯都保持一致的风味体验。",
+
+  "products_title": "产品介绍",
+  "products_lead": "Blendy 提供多种风格，从速溶便利到更接近咖啡馆的浓郁体验。",
+
+  "product_1_alt": "速溶咖啡粉",
+  "product_1_title": "Blendy 速溶咖啡",
+  "product_1_desc": "适合想快速享用咖啡，同时不牺牲香气与醇厚感的人。",
+  "product_1_point_1": "冲泡快速",
+  "product_1_point_2": "顺滑温和",
+  "product_1_point_3": "家用或办公室都适合",
+
+  "product_2_alt": "早餐与咖啡",
+  "product_2_title": "Blendy 条装系列",
+  "product_2_desc": "方便携带且选择丰富，非常适合忙碌早晨与休息时间。",
+  "product_2_point_1": "条装携带方便",
+  "product_2_point_2": "多种口味选择",
+  "product_2_point_3": "每次味道一致",
+
+  "product_3_alt": "咖啡豆与咖啡杯",
+  "product_3_title": "Blendy 高级混合",
+  "product_3_desc": "适合想在家享受更浓郁香气与更深层口感的人。",
+  "product_3_point_1": "更浓的烘焙香",
+  "product_3_point_2": "余韵满足",
+  "product_3_point_3": "与甜点或餐食都很搭",
+
+  "story_title": "为日常而生的品牌",
+  "story_p1": "Blendy 的诞生目标很明确：让咖啡成为生活的一部分，而不是复杂的仪式。",
+  "story_p2": "品牌强调平衡：香气与顺滑、便利与满足感之间的平衡，符合现代生活节奏。",
+  "story_p3": "无论是提神、放松还是转换心情，Blendy 都希望成为可靠的陪伴。",
+  "story_img_alt": "冲泡咖啡的场景",
+
+  "sus_title": "可持续与责任",
+  "sus_lead": "更好的咖啡体验也应代表更好的责任。我们持续提升品质，同时尊重环境。",
+
+  "sus_card_1_title": "品质管理",
+  "sus_card_1_desc": "通过稳定采购与细致调配，确保一致口感，并减少不必要浪费。",
+
+  "sus_card_2_title": "包装改进",
+  "sus_card_2_desc": "持续研究降低环境影响的包装设计，同时保持产品新鲜。",
+
+  "sus_quote": "一杯好咖啡应该轻松。一杯更好的咖啡也应该更负责任。",
+  "sus_quote_author": "Blendy 品牌理念",
+
+  "faq_title": "常见问题",
+  "faq_lead": "关于 Blendy 产品与饮用方式的常见解答。",
+
+  "faq_q1": "Blendy 与其他速溶咖啡品牌有什么不同？",
+  "faq_a1": "Blendy 注重平衡：顺滑香气、清爽口感，以及适合日常的稳定体验。",
+
+  "faq_q2": "喜欢浓咖啡的人适合 Blendy 吗？",
+  "faq_a2": "Blendy 以顺滑易饮为主，但高级系列也提供更深层与浓郁的风味。",
+
+  "faq_q3": "应该如何保存 Blendy 产品？",
+  "faq_a3": "请存放在阴凉干燥处，避免阳光直射。开封后请密封保存以保持香气。",
+
+  "faq_q4": "可以加牛奶饮用吗？",
+  "faq_a4": "可以。许多产品适合搭配牛奶，条装系列也常包含奶香口味。",
+
+  "footer_desc": "Blendy 提供舒适、轻松的每日咖啡体验。",
+  "footer_link_concept": "概念",
+  "footer_link_products": "产品",
+  "footer_link_story": "故事",
+  "footer_link_faq": "FAQ",
+  "footer_copy": "© Blendy. 版权所有。"
+}
