@@ -1,0 +1,29 @@
+// ==============================================================================
+//  デザイントークン / Design Tokens
+// ==============================================================================
+
+// SCSS 変数（コンパイル時に解決されるもの）← 必ず :root より先に定義
+$color-bg:      #ffffff;
+$color-bg-alt:  #f6f4f1;
+$color-text:    #111;
+$color-muted:   #555;
+$color-border:  #ddd;
+$color-primary: #111;
+
+$radius-default: 18px;
+
+$container-max:   1120px;
+$container-width: 92%;
+
+$font-stack: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+// CSS カスタムプロパティ（実行時に参照されるもの）← SCSS 変数の後に定義
+:root {
+  --bg:      #{$color-bg};
+  --bg-alt:  #{$color-bg-alt};
+  --text:    #{$color-text};
+  --muted:   #{$color-muted};
+  --border:  #{$color-border};
+  --primary: #{$color-primary};
+  --radius:  #{$radius-default};
+}

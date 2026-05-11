@@ -1,0 +1,21 @@
+@charset "UTF-8";
+// ==============================================================================
+//  エントリーポイント / Entry Point
+//  style.scss
+// ==============================================================================
+
+// ユーティリティ（関数・ミックスイン・変数）
+@use "mixin" as *;
+@use "variables";
+
+// コンポーネント
+@use "components/base";
+@use "components/layout";
+@use "components/button";
+@use "components/header";
+@use "components/hero";
+@use "components/section";
+@use "components/product";
+@use "components/story";
+@use "components/faq";
+@use "components/footer";

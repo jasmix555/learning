@@ -1,6 +1,6 @@
 <?php
-$supportedLangs = ["ja", "en", "cn", "kr"];
-$defaultLang = "ja";
+$supportedLangs = ["jp", "en", "cn", "kr"];
+$defaultLang = "jp";
 
 // ?lang=en
 $lang = $_GET["lang"] ?? "";
@@ -43,12 +43,12 @@ $pageTitle = tr("page_title", "Blendy Official Site");
 
   <meta name="description" content="<?= tr("meta_description") ?>" />
 
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <link rel="alternate" hreflang="ja" href="./?lang=ja" />
+  <link rel="alternate" hreflang="ja" href="./?lang=jp" />
   <link rel="alternate" hreflang="en" href="./?lang=en" />
-  <link rel="alternate" hreflang="cn" href="./?lang=cn" />
-  <link rel="alternate" hreflang="kr" href="./?lang=kr" />
+  <link rel="alternate" hreflang="zh" href="./?lang=cn" />
+  <link rel="alternate" hreflang="ko" href="./?lang=kr" />
 </head>
 
 <body>
@@ -69,9 +69,9 @@ $pageTitle = tr("page_title", "Blendy Official Site");
     </nav>
 
     <div class="lang">
-      <a class="<?= $lang === "ja" ? "active" : "" ?>" href="./?lang=ja">JP</a>
+      <a class="<?= $lang === "jp" ? "active" : "" ?>" href="./?lang=jp">JP</a>
       <a class="<?= $lang === "en" ? "active" : "" ?>" href="./?lang=en">EN</a>
-      <a class="<?= $lang === "cn" ? "active" : "" ?>" href="./?lang=cn">中文</a>
+      <a class="<?= $lang === "cn" ? "active" : "" ?>" href="./?lang=cn">CH</a>
       <a class="<?= $lang === "kr" ? "active" : "" ?>" href="./?lang=kr">KR</a>
     </div>
   </div>
@@ -138,7 +138,7 @@ $pageTitle = tr("page_title", "Blendy Official Site");
       <div class="product-grid">
 
         <article class="product">
-          <img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=900&q=80" alt="<?= tr("product_1_alt") ?>" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?q=80&w=1184&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="<?= tr("product_1_alt") ?>" loading="lazy" />
           <div class="product__body">
             <h3><?= tr("product_1_title") ?></h3>
             <p><?= tr("product_1_desc") ?></p>
@@ -164,7 +164,7 @@ $pageTitle = tr("page_title", "Blendy Official Site");
         </article>
 
         <article class="product">
-          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="<?= tr("product_3_alt") ?>" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1502462041640-b3d7e50d0662?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="<?= tr("product_3_alt") ?>" loading="lazy" />
           <div class="product__body">
             <h3><?= tr("product_3_title") ?></h3>
             <p><?= tr("product_3_desc") ?></p>

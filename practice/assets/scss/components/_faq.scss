@@ -1,0 +1,20 @@
+// ==============================================================================
+//  FAQ
+// ==============================================================================
+@use "../mixin" as *;
+@use "../variables" as *;
+
+.faq {
+  details {
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    background: #fff;
+    margin-bottom: 12px;
+  }
+
+  summary {
+    cursor: pointer;
+    font-weight: 700;
+  }
+}

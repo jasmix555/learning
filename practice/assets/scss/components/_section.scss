@@ -1,0 +1,38 @@
+// ==============================================================================
+//  セクション / Section
+// ==============================================================================
+@use "../mixin" as *;
+@use "../variables" as *;
+
+.section {
+  padding: 80px 0;
+
+  &--alt {
+    background: var(--bg-alt);
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 0 0 12px;
+  }
+}
+
+.lead {
+  color: var(--muted);
+  max-width: 70ch;
+  margin-bottom: 32px;
+}
+
+// カード
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+}

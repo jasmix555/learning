@@ -1,0 +1,32 @@
+// ==============================================================================
+//  レイアウト / Layout
+// ==============================================================================
+@use "../mixin" as *;
+@use "../variables" as *;
+
+// コンテナ
+.container {
+  width: min($container-max, $container-width);
+  margin: 0 auto;
+}
+
+// グリッド
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+
+  @include mq(small) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+
+  @include mq(small) {
+    grid-template-columns: 1fr;
+  }
+}

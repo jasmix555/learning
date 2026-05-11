@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@use "sass:math";
+@use "sass:map";
+
+//==============================================================================
+//  関数定義
+//==============================================================================
+
+// vw計算 ----------------------------------------------------------------------
+@function getVw($mySizePx, $viewport:375) {
+	$rate: math.div(100, $viewport);
+	@return $rate * $mySizePx * 1vw;
+}
+
+@function getVw2($mySizePx, $viewport:1300) {
+	$rate: math.div(100, $viewport);
+	@return $rate * $mySizePx * 1vw;
+}
+
+// 比率を計算する(%) -----------------------------------------------------------
+@function getRatio($childPx, $parentPx) {
+	@return math.div($childPx, $parentPx) * 100%;
+}
+
+// フォントサイズ：px → vw ----------------------------------------------------
+@mixin fontSizeVw($fontSizePx, $viewport:375) {
+	font-size: $fontSizePx * 1px;
+	font-size: getVw($fontSizePx, $viewport);
+}
+
+@mixin fontSizeVw2($fontSizePx, $viewport:1300) {
+	font-size: $fontSizePx * 1px;
+	font-size: getVw($fontSizePx, $viewport);
+}
+
+// フォントサイズ：px→rem -----------------------------------------------------
+@mixin fontSizeRem($size, $base: 16) {
+	font-size: $size + px;
+	font-size: math.div($size, $base) + rem;
+}
+
+// line高さ：px→比率 ----------------------------------------------------------
+@mixin lineHeight($fontSizePx, $lineHeightPx) {
+	line-height: math.div($lineHeightPx, $fontSizePx);
+}
+
+//==============================================================================
+// メディアクエリ
+//==============================================================================
+$mq-breakpoints: ('xsmall': 320px,
+	'small': 768px,
+	'medium': 810px,
+	'large' : 1320px,
+	'xlarge': 1920px,
+);
+
+@mixin mq($breakpoint: small) {
+	@media screen and (max-width: #{map.get($mq-breakpoints, $breakpoint)}) {
+		@content;
+	}
+}
+
+$mq-breakpoints2: ('xsmall': 321px,
+	'small': 641px,
+	'medium': 811px,
+	'large' : 1201px,
+	'xlarge': 1921px,
+);
+
+@mixin mqFrom($breakpoint: small) {
+	@media screen and (min-width: #{map.get($mq-breakpoints2, $breakpoint)}) {
+		@content;
+	}
+}
+
+// 背景画像 ----------------------------------------------------------
+@mixin bg-img($path, $size: cover, $pos: center center, $repeat: no-repeat) {
+  background-image: url($path);
+  background-size: $size;
+  background-position: $pos;
+  background-repeat: $repeat;
+}

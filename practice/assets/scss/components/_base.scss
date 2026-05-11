@@ -1,0 +1,19 @@
+// ==============================================================================
+//  ベーススタイル / Base Styles
+// ==============================================================================
+@use "../mixin" as *;
+@use "../variables" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font-stack;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
