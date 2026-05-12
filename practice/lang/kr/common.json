@@ -1,0 +1,20 @@
+{
+  "site_name": "Blendy",
+  "site_tagline": "매일을 편안하게 만드는 커피",
+  "page_title": "Blendy | 공식 브랜드 페이지",
+
+  "meta_description": "Blendy 커피 경험을 소개합니다. 향, 편안함, 그리고 일상 속의 품질.",
+
+  "nav_concept": "컨셉",
+  "nav_products": "제품",
+  "nav_story": "브랜드 스토리",
+  "nav_sustainability": "지속가능성",
+  "nav_faq": "FAQ",
+
+  "footer_desc": "Blendy는 매일을 위한 편안한 커피 경험을 제공합니다.",
+  "footer_link_concept": "컨셉",
+  "footer_link_products": "제품",
+  "footer_link_story": "스토리",
+  "footer_link_faq": "FAQ",
+  "footer_copy": "© Blendy. All rights reserved."
+}

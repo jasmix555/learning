@@ -1,0 +1,76 @@
+# ====================================================================
+# .htaccess — Apache configuration for the /practice/ folder
+#
+# This file gives us "pretty URLs". Instead of forcing users to visit
+#   /practice/index.php?lang=en&page=about
+# they can visit the cleaner
+#   /practice/en/about
+# and Apache will silently translate it to the first form before PHP
+# sees the request. The browser keeps the pretty URL in the address bar.
+#
+# REQUIREMENTS:
+#   - Apache mod_rewrite must be enabled (it usually is in XAMPP).
+#   - AllowOverride All must be set for this folder in httpd.conf,
+#     otherwise Apache ignores this file entirely.
+# ====================================================================
+
+
+# Turn on the URL rewriting engine. Nothing below works without this.
+RewriteEngine On
+
+
+# --------------------------------------------------------------------
+# Rule 1: Pass real files and folders through untouched.
+#
+# If someone requests /practice/assets/css/style.css, that file really
+# exists on disk — we want Apache to serve it directly, NOT rewrite it
+# to index.php. Same for images, JS, JSON, favicons, etc.
+#
+# %{REQUEST_FILENAME} -f  ->  true if the path is an existing FILE
+# %{REQUEST_FILENAME} -d  ->  true if the path is an existing DIRECTORY
+# [OR]  -> if EITHER condition is true...
+# RewriteRule ^ - [L]  ->  do nothing ("-") and stop processing ("L" = last)
+# --------------------------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+
+# --------------------------------------------------------------------
+# Rule 2: /lang/page  ->  index.php?lang=...&page=...
+#
+# Matches URLs like:
+#   /en/about          /jp/products          /kr/faq
+# The two captured groups become $1 (lang) and $2 (page).
+#
+# Regex breakdown:
+#   ^                  start of URL (after /practice/)
+#   ([a-z]{2})         two lowercase letters  (the language code)
+#   /                  literal slash
+#   ([a-z0-9_-]+)      one or more letters/digits/dash/underscore (page)
+#   /?                 optional trailing slash
+#   $                  end of URL
+#
+# Flags:
+#   [QSA]  Query String Append — keeps any existing ?foo=bar
+#   [L]    Last — stop processing more rules after this match
+# --------------------------------------------------------------------
+RewriteRule ^([a-z]{2})/([a-z0-9_-]+)/?$ index.php?lang=$1&page=$2 [QSA,L]
+
+
+# --------------------------------------------------------------------
+# Rule 3: /lang  ->  index.php?lang=...&page=home
+#
+# Matches just the language code with no page (e.g. /en or /jp/).
+# Defaults the page to "home" so /en shows the English home page.
+# --------------------------------------------------------------------
+RewriteRule ^([a-z]{2})/?$ index.php?lang=$1&page=home [QSA,L]
+
+
+# --------------------------------------------------------------------
+# Rule 4: Fallback — anything else goes to index.php
+#
+# Catches the bare /practice/ visit (no language, no page).
+# index.php will use the default language and the "home" page.
+# --------------------------------------------------------------------
+RewriteRule ^ index.php [QSA,L]
